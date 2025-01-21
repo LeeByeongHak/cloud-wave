@@ -1,0 +1,51 @@
+{
+    "NetworkInterfaces": [
+        {
+            "Attachment": {
+                "AttachTime": "2025-01-09T07:42:43+00:00",
+                "AttachmentId": "eni-attach-0f0508f7752cd0c3b",
+                "DeleteOnTermination": true,
+                "DeviceIndex": 1,
+                "NetworkCardIndex": 0,
+                "InstanceOwnerId": "344373193414",
+                "Status": "attached"
+            },
+            "AvailabilityZone": "ap-northeast-2a",
+            "Description": "Amazon EKS istory",
+            "Groups": [
+                {
+                    "GroupId": "sg-0412d0ed19896cd88",
+                    "GroupName": "istory-cluster-2025010907325997740000000f"
+                },
+                {
+                    "GroupId": "sg-09201e4febe2d3c7f",
+                    "GroupName": "eks-cluster-sg-istory-1179135444"
+                }
+            ],
+            "InterfaceType": "interface",
+            "Ipv6Addresses": [],
+            "MacAddress": "02:4c:54:1f:55:b5",
+            "NetworkInterfaceId": "eni-087406b18d7bfcb8e",
+            "OwnerId": "195275654390",
+            "PrivateDnsName": "ip-10-1-3-108.ap-northeast-2.compute.internal",
+            "PrivateIpAddress": "10.1.3.108",
+            "PrivateIpAddresses": [
+                {
+                    "Primary": true,
+                    "PrivateDnsName": "ip-10-1-3-108.ap-northeast-2.compute.internal",
+                    "PrivateIpAddress": "10.1.3.108"
+                }
+            ],
+            "RequesterId": "344373193414",
+            "RequesterManaged": true,
+            "SourceDestCheck": true,
+            "Status": "in-use",
+            "SubnetId": "subnet-04b3c5e37f3d39742",
+            "TagSet": [],
+            "VpcId": "vpc-0a04f8598f04c4409",
+            "Operator": {
+                "Managed": false
+            }
+        }
+    ]
+}
